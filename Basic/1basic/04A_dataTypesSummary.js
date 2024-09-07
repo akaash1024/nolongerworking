@@ -4,9 +4,7 @@
 
 // ************************************************************
 
-//Reference / Non-Primitive
-
-//Array, Objects, functions
+//Reference / Non-Primitive //Array, Objects, functions
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++

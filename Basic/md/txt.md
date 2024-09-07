@@ -19,3 +19,10 @@ and same time take  your mouse and hit mourse to next closed element like, </h2|
 <!-- <pre>
 
 </pre> -->
+
+
+> from vivek sir class
+![alt text](image.png)
+
+![alt text](image-1.png)
+    -   symbols
