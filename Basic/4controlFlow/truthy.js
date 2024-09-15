@@ -2,7 +2,7 @@
 // false, 0, -0, BigInt, "" (empty string),null, undefined,NaN
 
 //truthy values
-//"0","false"," ", [], {}, function(){}
+//"0","false"//not empty string," ", [], {}, function(){}
 
 // const userEmai = []
 // if (userEmai.length===0){

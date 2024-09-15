@@ -4,12 +4,16 @@
 
 // //START
 // const user = {
-//     username: "hitesh",
+//     username: "Akash",
 //     price: 999,
 
 //     welcomeMessage: function() {
-//         console.log(`${this.username} , welcome to website`); //Here "this.username works only with 'OBJECTS'"
-//         console.log(this);
+//         console.log(`${this.username} , welcome to website`); //Here "this.username works only with 'OBJECTS not work in function line.34 or around'" ///CURRENT CONTEXT
+
+            ////⚡note: we can't use the this keyword directly in an "Arrow function" in JavaScript because arrow functions don't have their own this keyword. 
+
+            //Instead, they inherit the this keyword from the parent scope. Using this in an arrow function will return an undefined value. 
+//         console.log(this); //will return current context
 //     }
 // }
 
@@ -26,7 +30,7 @@
 // //START
 
 // function chai(){
-//     let userName = "hitesh";
+//     let userName = "Akash";
 //     console.log(this.userName);  //cant use "this.userName" like this in function works only in object.
 //     console.log(this);    
 // }

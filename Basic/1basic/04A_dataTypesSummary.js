@@ -1,15 +1,17 @@
 // Primitive
-
 //7 types : String , Number , Boolean, Null: Empty, undefiend : undefiend , symbol: make unique, bigint
 
 // ************************************************************
 
-//Reference / Non-Primitive //Array, Objects, functions
+//Reference / Non-Primitive 
+//Array, Objects, functions  // all return type is called object and for function is called function object
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Stack (primitive)  , Heap (non-primitive)
+// Stack (primitive)  , Heap (non-primitive / referance) 
+//[stack and heap in js language] 
+//P.s In pyTutor is called accordingly python language [Frames and object]
 
 // let myold = "akash1999";
 // let newValue = myold;
@@ -21,6 +23,9 @@
 
 // -----------------------------------
 
+
+
+//Reference
 let userOne = {
     email : "user@google.com",
     upi : "akkash@tbl"

@@ -8,11 +8,16 @@ accountCity = 'Jaipur'
 // accountId = 4 // not allowed
 accountEmail = "adars"
 acccountPassword = '7389843'
-accountCity = 'Bengaluru'
+var accountCity = 'Bengaluru'
 let accountState;
 console.log(accountId)
 console.table([accountId,accountEmail,acccountPassword,accountCity,accountState])
 
-/*
 
-*/
+
+// console.log(firstName);
+// let firstName;
+// firstName = "Akash";
+
+// var can be re-declared, let cant
+// var let you access itself before declaration, let cant //

@@ -27,6 +27,8 @@ function one(){
         const website = "youtube"
         console.log(userName) //inner function can access outsides' function key and value like, "One is parent and Two is child"
     }
+    // console.log(website); ///throw error
+    
     two()
 }
 
@@ -35,7 +37,7 @@ one()
 // //END
 
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Interesting <<<<<<<<<<<<<<<<<<<<<<<<<
 
 // //START
 
@@ -51,3 +53,16 @@ one()
 
 // //END
 
+// -------------------------------------------- Vivek Sir,
+
+var a=4;
+function foo(x){
+    var b=a*4;
+    function bar(y){
+        var c=y*b;
+        return c;
+    }
+    return bar(b);
+}
+
+console.log(foo(a))

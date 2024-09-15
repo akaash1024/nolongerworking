@@ -16,6 +16,6 @@ symbol : Unique
 /*
 object
 */
-let name="Akash"
-console.log(typeof "age");
-console.log(typeof null); //object
+// let name="Akash"
+// console.log(typeof "age");
+// console.log(typeof null); //object

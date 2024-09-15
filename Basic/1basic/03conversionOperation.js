@@ -38,18 +38,23 @@ false : 0
 // console.log(negValue);
 
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// let xx = "1" + 2;
+// console.log(xx,typeof xx); 
+// let aa = 1 + "2";
+// console.log(aa,typeof aa); 
+// let aaa = "1" + 2 + 2;
+// console.log(aaa,typeof aaa);
+// let aas 1 + 2 + "2";
+// console.log(aas,typeof aas);
+
+
 
 
 // console.log(+true)
 // console.log(+"")
 
 
-let counter = 100;
-
+// let counter = 100;
 // ++counter
 // console.log(counter)
 
@@ -75,5 +80,56 @@ const y = x++;
  x is 4; 
  y is 3
 */
+
+
+
+// `let temp="16px" //must start from number 
+// y=parseInt(temp)
+// console.log(y);
+// console.log(typeof y);
+
+// let temp1="xxx16px"
+// z=parseInt(temp1)
+// console.log(z);
+// console.log(typeof z);
+// `
+
+
+
+// `
+// let x="500";
+// y=Number(x)
+// z=(+x)
+// console.log(y);
+// console.log(z);
+
+// // --------
+// let vivekAge="10";
+// let vivekNextYearAge= +vivekAge+1;
+// console.log(vivekNextYearAge);
+
+// console.log(false == 0);         //true
+// console.log(null == undefined); //true
+// `
+
+console.log(typeof 42);
+console.log(typeof "Hello World");
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof function (){});
+
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+
+let x=[1,2,3,4,5];
+console.log(Array.isArray(x));
+
+let y = {name:"Akash"}
+if((typeof y==="object") && (y!==null) && !Array.isArray(y)){
+    console.log("I am sure that this is object");
+    
+}
+
 
 

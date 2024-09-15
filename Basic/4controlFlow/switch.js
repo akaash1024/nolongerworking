@@ -35,3 +35,23 @@ switch (month) {
         
         break;
 }
+
+
+let skillLevel = "beginner" // beginner, intermediate, advanced, expert
+
+switch (skillLevel) {
+  case 'beginner':
+    console.log(45000);
+    break;
+
+  case 'intermediate':
+    console.log(75000);
+    break;
+
+  case 'advanced':
+    console.log(100000);
+    break;
+
+  default:
+    console.log(150000);
+}

@@ -1,24 +1,22 @@
 const myArr = [0,1,2,3,4,5]
-// const myHero = ["Shaktiman", "naagraj"]
+const myHero = ["Shaktiman", "naagraj"]
 
-// const myArray2 = new Array(1,2,4,5)
-// console.log(myArr[1])
+const myArray2 = new Array(1,2,4,5)
+console.log(myArr[1]) //1
 
+myArray2.push(6) 
+myArray2.push(7) 
+console.log((myArray2));
 
-// //Array methods 
+myArray2.pop()
+console.log((myArray2));
 
-// myArray2.push(6)
-// myArray2.push(7)
-// console.log((myArray2));
+myArr.unshift(10)
+myArr.unshift(1100)
+console.log((myArr));
 
-// myArray2.pop()
-// console.log((myArray2));
-
-// myArr.unshift(9)
-// console.log((myArr));
-
-// myArr.shift()
-// console.log((myArr));
+myArr.shift()
+console.log((myArr));
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(9));

@@ -26,8 +26,12 @@ function calculateCartValue(val1,val2,...num1){  //this is called rest operator
 
 // console.log(calculateCartValue(200,400,500,6000));
 
-//with Objects >>>>>>>>>>>>>>>>
 
+
+
+
+
+//with Objects >>>>>>>>>>>>>>>>
 
 const user = {
     userName: "Akash",
@@ -50,6 +54,8 @@ function handleObject(anyObject){
 //with Array  >>>>>>>>>>>>>>>>
 
 const myNewArray = [200, 400, 600, 800]
+
+
 function returneSecondValue(getArr){
     return getArr[1]
 }
@@ -57,3 +63,27 @@ function returneSecondValue(getArr){
 // console.log(returneSecondValue(myNewArray)) //when using exiting array 
 
 console.log(returneSecondValue([1000,2000]));
+
+
+
+// ------------------------------------------
+
+// function declaration
+function greet(greeting, name){
+    return `${greeting}, from ${name}`;
+}
+
+// function expression
+let greet2=function(greeting, name){
+    return `${greeting}, from ${name}`;
+};
+
+//arrow function
+let greet = (greeting, name) => {
+    return `${greeting}, from ${name}`;
+}
+
+//or
+let greet = name => `hello, from ${name}`;  //todays' industry practice
+let greet = (name) => ({name:"Vivek"})
+console.log(greet("Vivek"));
