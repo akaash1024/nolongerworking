@@ -2,9 +2,7 @@
 
 
 const arr = [1,2,3,4,5]
-// for (const element of object) { //here in element place you can put, "i, j, num anthing" SAME, here object is just var
 
-// }
 for (const num of arr) {
     //console.log(num);
 }
@@ -32,6 +30,8 @@ for (const greet of greetings) {
 
 
 
+```
+
 // const object = new Object()
 const object = {}
 object.game1 = "NFS"
@@ -41,3 +41,5 @@ console.log(object);
 // for (const [key,value] of object) {
 //     console.log(key, ":-", value);  //throwing error, we can iterate on MAPS. cant on objects like anyway.. .
 // }
+
+```

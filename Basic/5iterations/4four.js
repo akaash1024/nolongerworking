@@ -1,3 +1,8 @@
+//for in
+
+//simply forin and tab
+
+
 const myObject = {
     js:"JavaScript",
     cpp:"C++",

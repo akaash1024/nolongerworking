@@ -4,7 +4,7 @@
 // const values = coding.forEach( (temp) => {
 //     console.log(temp);
 // })
-// console.log((values)); //not returning anything
+// console.log((values)); //not returning anything "undefined"
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //arrow function can define ,
@@ -43,6 +43,6 @@ const books = [
 let userBooks = books.filter((bk) => bk.genre === "History");
 
 userBooks = books.filter((bk) => {
-  return bk.publish >= 2000;
+  return bk.publish >= 2000 && bk.genre === "History";
 });
 console.log(userBooks);

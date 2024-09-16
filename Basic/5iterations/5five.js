@@ -1,11 +1,13 @@
 const  coding = ["js", "py", "c++", "rb"]
 
-///////////////////////
+//// >>>>>> basic
 function printMe(temp){
-    // console.log(temp);
+    console.log(temp);
 }
-coding.forEach(printMe) //if you want give callback-function here then you have to remove name. So, give parameter as reference
-//////////////////////
+coding.forEach(printMe) 
+// if you want give callback-function here then you have to remove name. 
+// So, give parameter as reference
+
 
 
 // coding.forEach(function functionName(){}) this the way to write, right?! 
@@ -14,6 +16,7 @@ coding.forEach(printMe) //if you want give callback-function here then you have 
 
 
 //so, anonymous way to call callback function
+
 coding.forEach(function (i){  //simple way, write coding.forEach(fuction functionName(){}) then delete fuctionName because it is callbackfn "NEXTLINE comment"
     // console.log(i);        //take "i, val, ele" what you want open the curly-brackets
 })
