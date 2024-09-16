@@ -9,6 +9,7 @@ coding.forEach(printMe) //if you want give callback-function here then you have 
 
 
 // coding.forEach(function functionName(){}) this the way to write, right?! 
+
 // but here, forEach taking parameter as callbackfunction that simple meaning is no need ":function name"
 
 
@@ -48,8 +49,20 @@ myCoding.forEach((items) => {
 })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 //////////////////////from GPT to understand callback
-https://chatgpt.com/share/d0a6a08f-9a01-436d-8b08-c139af799d6e
+
 
 // const numbers = [1, 2, 3, 4, 5];
 
