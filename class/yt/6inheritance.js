@@ -1,3 +1,5 @@
+
+//think like, this is USA - outsourcing about Users' username
 class User {
     constructor(username){
         this.username = username
@@ -8,6 +10,7 @@ class User {
     }
 }
 
+//suppose, this is India
 class Teacher extends User{
     constructor(username, email, password){
         super(username)

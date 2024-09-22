@@ -1,10 +1,10 @@
 function SetUsername(username){
+    //complex DB calls - verifying, checking, matching conditons and all., 
     this.username = username
-    console.log("called", username);
+    console.log("called");
 }
 
 function createUser(username, email, password){
-    SetUsername(username)
     SetUsername.call(this, username)
    
     this.email = email
