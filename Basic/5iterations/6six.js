@@ -46,3 +46,23 @@ userBooks = books.filter((bk) => {
   return bk.publish >= 2000 && bk.genre === "History";
 });
 console.log(userBooks);
+
+
+//++++++++++++++
+let users = [
+  { rank: 1, firstName: "John", lastName: "Doe" },
+  { rank: 2, firstName: "Pete", lastName: "Smith" },
+  { rank: 3, firstName: "Mary", lastName: "Go" },
+];
+
+
+const topUsers = users.filter( (item) =>{
+  return item.rank>=2;
+});
+
+console.log(topUsers);
+
+/* 
+  { rank: 2, firstName: "Pete", lastName: "Smith" },
+  { rank: 3, firstName: "Mary", lastName: "Go" },
+*/

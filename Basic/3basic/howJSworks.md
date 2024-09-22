@@ -7,6 +7,9 @@
 ![alt text](./img/4.png)
 
 
+
+in chrome inspect, 
+
 <code>
 
 function one(){

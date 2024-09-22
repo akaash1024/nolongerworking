@@ -83,7 +83,7 @@ console.log(instructor);
 //     }
 // }
 
-// let {} = obj  //when it {} sign after var js auto get it has destructer the object same happening in arr
+// let {} = obj  //when it {} sign after var js auto get it has destructer the object "same happening in arr"
 // let {age} = obj
 
 
@@ -98,7 +98,7 @@ console.log(instructor);
 // let {} = obj  //when it {} sign after var js auto get it has destructer the object same happening in arr
 // let {age} = obj
 // `
-
+// ---------------------------------------------------------------------- ARRAY
 
 // `// ⚠️⚠️⚠️⚠️ARRAY
 // // let arr = [
@@ -149,5 +149,15 @@ let greet = function(name, greeting){  //even  you can give greeting="by default
 
 
 
-//splice: splice(2,4) // start from 2 and remove 4 items //mutuate original array //slice not
+
+
+
+
+
+
+
+
+
+
+//splice: splice(2,4) // start from 2 and remove 4 items //mutuate original array //slice not🔴
 //OR splice(2,4 "akash", "akash2","akash3") // this will remove from 2 and remove 4 and add three items.
