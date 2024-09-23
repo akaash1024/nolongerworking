@@ -13,8 +13,8 @@ const mySym = Symbol("key1")
 const JsUser = {
     name : "Akash",
     "full name": "Akash Rambahadur Kevat", //thats why you should know about this method. 
-    // mySym:"key1", //line 29: we cant use like that
-    [mySym]:"mykey1",
+    // mySym:"key1", //next line check, we cant use like current line,
+    [mySym]:"mykey1", //to use symbol first declare, write in bracket and assign val.
     age : 18,
     location : "Ahmedabad",
     email: "akashkewat99@gmail.com",

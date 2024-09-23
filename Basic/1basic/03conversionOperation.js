@@ -39,27 +39,31 @@ false : 0
 
 
 // let xx = "1" + 2;
-// console.log(xx,typeof xx); 
+// console.log(xx,typeof xx);  //string
+
 // let aa = 1 + "2";
-// console.log(aa,typeof aa); 
+// console.log(aa,typeof aa); //string
+
 // let aaa = "1" + 2 + 2;
-// console.log(aaa,typeof aaa);
-// let aas 1 + 2 + "2";
-// console.log(aas,typeof aas);
+// console.log(aaa,typeof aaa); //string
+
+// let aas = 1 + 2 + "2";
+// console.log(aas,typeof aas); //string
 
 
 
 
-// console.log(+true)
-// console.log(+"")
+// console.log(+true) //1
+// console.log(+"")   //0
 
 
 // let counter = 100;
-// ++counter
-// console.log(counter)
 
-counter++
-console.log(counter)
+// ++counter //101
+// console.log(counter) //101
+
+// counter++
+// console.log(counter)
 
 /*
 Prefix increment

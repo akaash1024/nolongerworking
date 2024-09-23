@@ -6,7 +6,6 @@
 // const user = {
 //     username: "Akash",
 //     price: 999,
-
 //     welcomeMessage: function() {
 //         console.log(`${this.username} , welcome to website`); //Here "this.username works only with 'OBJECTS not work in function line.34 or around'" ///CURRENT CONTEXT
 
@@ -40,11 +39,11 @@
 
 
 // // ------------------------------
-// const chai = function(){
+// const chai2 = function(){
 //     let userName = "Akash2"
 //     console.log(this.userName); //AUS undefined
 // }
-// chai()
+// chai2()
 
 ////making arrow function using above code
 //// //simply remove function except brackets and after brackets add => voilaaaa. 

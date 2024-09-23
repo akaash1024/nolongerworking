@@ -1,9 +1,9 @@
 // `
 // let x=10;
-// console.log(x+1)
-// console.log("after x+1",x)
-// console.log(x+=1)
-// console.log("after x+=1",x)
+// console.log(x+1)                   //11
+// console.log("after x+1",x)         //10
+// console.log(x+=1)                  //11
+// console.log("after x+=1",x)        //11
 // `
 
 

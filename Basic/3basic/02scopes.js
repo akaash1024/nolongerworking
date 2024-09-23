@@ -14,7 +14,7 @@
 
 // // console.log("a",a);
 // // console.log("b",b);
-// console.log("c",c); //this will rerurn you 1000 from line10. which is not excuated yet. thats the problem with var
+// console.log("c",c); //this will rerurn you 1000 from line12. which is not excuated yet. thats the problem with var
 
 // // END
 
@@ -56,13 +56,13 @@ one()
 // -------------------------------------------- Vivek Sir,
 
 var a=4;
-function foo(x){
-    var b=a*4;
-    function bar(y){
-        var c=y*b;
+function foo(x){ //enter with 4
+    var b=a*4; //b = 4*4 //16
+    function bar(y){ //enter with 16
+        var c=y*b; //16*16
         return c;
     }
-    return bar(b);
+    return bar(b); //going with 16
 }
 
 console.log(foo(a))

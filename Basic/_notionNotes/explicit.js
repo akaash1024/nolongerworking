@@ -20,7 +20,8 @@ String(true) = "true"
 
 +++++++++++++++++++++++++++++++++++++++++++++
 
-Converting Arrays and Objects to Strings
+Converting 
+Arrays and Objects to Strings
 String([1,2,3]) = "1,2,3"
 [1,2,3].toString() = "1,2,3"
 String({key: 'value'}) = "[object Object]"

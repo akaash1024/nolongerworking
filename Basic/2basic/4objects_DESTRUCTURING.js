@@ -5,8 +5,8 @@ object.create //constructor method through
 
 //this is >>>>>>>>>>>singleton<<<<<<<<<<<<<<<<<<
 
-// const tinderUser = new Object()
-const tinderUser = {} //both are same 
+const tinderUser = new Object() //industry practice
+// const tinderUser = {} //both are same 
 
 tinderUser.id = "12ahdfdhs"
 tinderUser.name = "Akash"
@@ -22,6 +22,9 @@ const regularUser = {
             firstName:"Akash",
             lastName: "Kevat",
             middleName: "Rambahadur"
+        },
+        pseudoName:{
+            signPseudoName:"A-Kumar"
         }
     }
 }
@@ -31,7 +34,9 @@ const regularUser = {
 
 // console.log(regularUser) gives all details 
 // console.log(regularUser.fulName.userFullName.lastName)
-// console.log(regularUser.?fulName?.userFullName?.lastName) //when taking response from API 
+// console.log(regularUser?.fulName?.userFullName?.lastName)  //when taking response from API 
+// console.log(regularUser?.fulName?.pseudoName?.signAkash)  // returning undefined as not exit such key/valuee
+
 
 
 const ob1 = {1: "A", 2: "B"}
@@ -84,7 +89,7 @@ console.log(instructor);
 // }
 
 // let {} = obj  //when it {} sign after var js auto get it has destructer the object "same happening in arr"
-// let {age} = obj
+// let {age} = obj //
 
 
 

@@ -4,7 +4,7 @@
 // ************************************************************
 
 //Reference / Non-Primitive 
-//Array, Objects, functions  // all return type is called object and for function is called function object
+//Array, Objects, functions  //MUST READ// all return type is called object and for function is called function object
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++

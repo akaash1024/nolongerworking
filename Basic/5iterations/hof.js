@@ -3,7 +3,21 @@
 //     return operation(a,b)
 // }
 
-calculate = (a,b,operation) => operation(a,b)
+let calculate = (a,b,operation) => operation(a,b)
+
+function add(a,b){
+    return a+b;
+}
+
+console.log(calculate(10,15,add))
+
+
+
+///++++++++++++++++++++++++++++++++++++
+///++++++++++++++++++++++++++++++++++++
+///++++++++++++++++++++++++++++++++++++
+
+
 
 const addition = (x, y) => x + y;
 const subtraction = (x, y) => x - y;

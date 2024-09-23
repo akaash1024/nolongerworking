@@ -28,16 +28,16 @@ console.log((myArr));
 
 //slice and splice
 
+//const myArr = [0,1,2,3,4,5]
 // console.log("AA",myArr);
 // const myn1 = myArr.slice(1,3)
 // console.log("After Slice",myn1);
 
-console.log("BB",myArr);
-const myn2 = myArr.splice(1,3);
-console.log("After splice",myn2);
 
-
-console.log("CC",myArr);
+console.log("BB",myArr); // [0,1,2,3,4,5]
+const myn2 = myArr.splice(1,3); 
+console.log("After splice",myn2); //[1,2,3] 
+console.log("After splice original arr", myArr) //[0, 4, 5]
 console.log(myn2);
 
 

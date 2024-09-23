@@ -2,7 +2,7 @@ const accountId = 13333;
 let accountEmail = "akash@gmail.com"
 var acccountPassword = '886611'
 
-accountCity = 'Jaipur'
+accountCity = 'Jaipur' //before declaring assigning value possible in var only
 
 
 // accountId = 4 // not allowed

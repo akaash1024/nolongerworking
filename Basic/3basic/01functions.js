@@ -15,7 +15,9 @@
 // }
 
 // console.log(loginUser("Akash"))
+// console.log(loginUser(""))
 // console.log(loginUser());
+
 
 
 //>>>>>>>>>>>>>>>>>>>>>>>REST Operator 
@@ -39,14 +41,15 @@ const user = {
 }
 
 function handleObject(anyObject){
+    anyObject.testingWhileRevising = "Hello" //adding value to above code (user)
     console.log(`Username is ${anyObject.userName} and price is ${anyObject.price}`);
 }
 
 // handleObject(user); //we can pass both methos and works fine
+// console.log(user)
 // handleObject({      //we can pass both methos and works fine 
 //     userName:"test",
 //     price: 400
-
 // })
 
 
@@ -57,11 +60,12 @@ const myNewArray = [200, 400, 600, 800]
 
 
 function returneSecondValue(getArr){
+    getArr.push(100000) //testing while revision
     return getArr[1]
 }
 
-// console.log(returneSecondValue(myNewArray)) //when using exiting array 
-
+console.log(returneSecondValue(myNewArray)) //when using exiting array 
+console.log(myNewArray)
 console.log(returneSecondValue([1000,2000]));
 
 
@@ -79,11 +83,14 @@ let greet2=function(greeting, name){
 };
 
 //arrow function
-let greet = (greeting, name) => {
+let greet3 = (greeting, name) => {
     return `${greeting}, from ${name}`;
 }
 
 //or
-let greet = name => `hello, from ${name}`;  //todays' industry practice
-let greet = (name) => ({name:"Vivek"})
-console.log(greet("Vivek"));
+var greet4 = name => `hello, from ${name}`;  //todays' industry practice
+
+const greet5 = (name) => ({name:"Vivek"})
+
+
+

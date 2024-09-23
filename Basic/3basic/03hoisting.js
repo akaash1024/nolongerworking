@@ -10,6 +10,7 @@ first_name="Akash";
 
 
 /////////////
+```
 tipper("80");
 
 function tipper(a) {
@@ -17,12 +18,16 @@ function tipper(a) {
   console.log(bill + 5);
 }
 
+
 var bigTipper = function (a) {
   var bill = parseInt(a);
   console.log(bill + 15);
 };
 
 bigTipper("200");
+```
+
+
 
 console.log(name);
 var name = "hitesh";
@@ -39,7 +44,10 @@ console.log(name);
 
 
 
-////////////////////////////
+////////////////////////////MUST READ
+////////////////////////////MUST READ
+////////////////////////////MUST READ
+////////////////////////////MUST READ
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Interesting <<<<<<<<<<<<<<<<<<<<<<<<<
 
 // //START
@@ -50,7 +58,7 @@ console.log(name);
 //     return num+1
 // }
 
-// console.log(addTwo(10)); // then why this will not, HOISTING //stored in variable
+// console.log(addTwo(10)); // then why this will not, HOISTING // "STORED in variable"
 
 // const addTwo = function(num){  //this is also function but most of time called "expression"
 //     return num+2
