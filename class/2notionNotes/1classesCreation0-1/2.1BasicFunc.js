@@ -3,7 +3,7 @@ function IPhone1(color, display) {
   this.display = display;
 }
 
-// Defining methods on the prototype
+// Defining methods on the prototype - NOW Iphone1 have prototype
 IPhone1.prototype.dial = function() {
   console.log("tring.. tring...");
 };

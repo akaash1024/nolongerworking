@@ -3,7 +3,7 @@ function IPhone1(color, display) {
     this.display = display;
     
 
-    //MUST READ - //still not prototype 
+    //MUST READ - //STILL not prototype this is only method.
 
     this.dial = function() {
       console.log("tring.. tring...")

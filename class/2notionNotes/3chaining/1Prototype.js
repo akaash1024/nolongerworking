@@ -1,3 +1,6 @@
+//chaining two object 
+
+
 let user = {
   name: "vivek",
   sayHello: function () {
@@ -13,7 +16,7 @@ let workInfo = {
   // __proto__:user,                        //(*)(*)(*)(*)(*) OR 
 };
 
-workInfo.__proto__ = user;                  //(*)(*)(*)(*)(*) OR
+// workInfo.__proto__ = user;                  //(*)(*)(*)(*)(*) OR
 
 Object.setPrototypeOf(workInfo, user);      //(*)(*)(*)(*)(*) OR
 
@@ -24,14 +27,15 @@ workInfo.sayHello(); // "Hello"
 //MST READ
 //(*)(*)(*)(*)(*)
 //__proto__ is an older, informal way to get/set the prototype.
+
 //Object.setPrototypeOf is the modern, preferred method to set an object's prototype.
 
 
 
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\\
+//++++++++++++++++++++++++++++++++++🔴🔴MUST🔴🔴 REST🔴🔴+++++++++++++++++++++++++++++++++++++++\\
 
-//Good Practice for industry level using Object.create(user)
+//Good Practice for industry level using 🔴🔴Object.create(user)
 
 // let user = {
 //     name: "vivek",
@@ -54,6 +58,3 @@ workInfo.sayHello(); // "Hello"
 
 
 
-//##NOTE
-// ## Every function has a built in `prototype` object
-// Every function in JavaScript automatically has a property named `prototype`. This property is an **`object`**. You can add properties and methods to the `prototype` ****just like any other object. You can create a prototype chain of `prototype` ****with any other object.

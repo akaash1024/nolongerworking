@@ -1,3 +1,6 @@
+
+
+
 function person() {}
 
 // you can add properties and methods to prototype
@@ -37,6 +40,9 @@ worker.greet(); // Hello World!
 
 //+++++++++++++++++++++++++++++++++++++++++From here++++++++++++++++++++++++++++++++++++++\\
 
+
+
+
 function Animal() {}
 
 // Attach a function `sleep` to Animal's prototype object.
@@ -58,36 +64,10 @@ let pet = {
 // set prototype of pet to be Dog
 Object.setPrototypeOf(pet, Dog.prototype);
 
+// Object.assign(pet,Animal.prototype,Dog.prototype)  //this is alternate (**)(**)(**)🔴
+
 pet.sleep(); // sleeping!
 
 
 
 
-//+++++++++++++++++++++++++++++++++++++++++From here++++++++++++++++++++++++++++++++++++++\\
-
-
-function personCreator(firstName, lastName, age) {
-    let obj = {};
-  
-    obj.firstName = firstName;
-    obj.lastName = lastName;
-    obj.age = age;
-  
-    return obj;
-  }
-  
-  function employeeCreator(firstName, lastName, age, department, salary) {
-    let obj = personCreator(firstName, lastName, age);
-  
-    // obj.firstName = firstName;
-    // obj.lastName = lastName;
-    // obj.age = age;
-  
-    obj.department = department;
-    obj.salary = salary;
-  
-    return obj;
-  }
-  
-  let emp1 = employeeCreator("John", "Wilson", 25, "Sales", 100000);
-  console.log(emp1);
