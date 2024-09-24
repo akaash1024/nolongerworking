@@ -1,7 +1,7 @@
-
+//Array ❌array nai 
 let myHeros = ["thor", "spiderman"]
 
-
+//Object ❌object nai
 let heroPower = {
     thor: "hammer",
     spiderman: "sling",
@@ -28,8 +28,9 @@ Array.prototype.heyHitesh = function(){
 
 
 
-// ++++++++++++++++++++++++ inheritance
-// ++++++++++++++++++++++++ inheritance
+// ++++++++++++++++++++++++ inheritance object to object 
+// ++++++++++++++++++++++++ inheritance object to object 
+                        // using Object.setPrototypeOf()
 
 
 const User = {

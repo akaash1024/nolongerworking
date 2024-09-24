@@ -22,6 +22,7 @@ function User(username, loginCount, isLoggedIn){
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn
 
+    //this is not prototype
     this.greeting = function(){
         console.log(`Welcome ${this.username}`);
 
@@ -32,3 +33,10 @@ const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false) //using "new" so userTwo cant over-ride userOne data
 console.log(userOne.constructor);
 //console.log(userTwo);
+
+//creting prototype
+User.prototype.Akash = () => {
+    console.log("Setting own proto is done")
+}
+
+console.log(User.prototype) //return Akash
